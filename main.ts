@@ -1,6 +1,6 @@
 input.onButtonPressed(Button.A, function () {
     basic.showIcon(IconNames.Happy)
-    music.playMelody("C D E F G A B C5 ", 120)
+    music.playMelody("G B A G C5 B A B ", 120)
 })
 input.onButtonPressed(Button.AB, function () {
     basic.showIcon(IconNames.Heart)
@@ -9,6 +9,6 @@ input.onButtonPressed(Button.AB, function () {
 })
 input.onButtonPressed(Button.B, function () {
     basic.showIcon(IconNames.SmallHeart)
-    music.playMelody("A D C5 G C A F B ", 274)
+    music.playMelody("E D G F B A C5 B ", 274)
 })
 basic.showIcon(IconNames.Giraffe)
