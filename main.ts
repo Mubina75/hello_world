@@ -4,6 +4,7 @@ input.onButtonPressed(Button.A, function () {
 })
 input.onButtonPressed(Button.AB, function () {
     basic.showIcon(IconNames.Heart)
+    basic.showString("MUBINA!")
     music.playMelody("B A F D F G B C5 ", 120)
 })
 input.onButtonPressed(Button.B, function () {
